@@ -1,0 +1,67 @@
+[
+  {
+    "type": "function",
+    "name": "constructor",
+    "inputs": [],
+    "outputs": [],
+    "state_mutability": "external"
+  },
+  {
+    "type": "function",
+    "name": "get_balance",
+    "inputs": [],
+    "outputs": [
+      {
+        "type": "core::integer::u128"
+      }
+    ],
+    "state_mutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "get_owner",
+    "inputs": [],
+    "outputs": [
+      {
+        "type": "core::starknet::contract_address::ContractAddress"
+      }
+    ],
+    "state_mutability": "view"
+  },
+  {
+    "type": "function",
+    "name": "deposit",
+    "inputs": [
+      {
+        "name": "amount",
+        "type": "core::integer::u128"
+      }
+    ],
+    "outputs": [],
+    "state_mutability": "external"
+  },
+  {
+    "type": "function",
+    "name": "withdraw",
+    "inputs": [
+      {
+        "name": "amount",
+        "type": "core::integer::u128"
+      }
+    ],
+    "outputs": [],
+    "state_mutability": "external"
+  },
+  {
+    "type": "function",
+    "name": "set_owner",
+    "inputs": [
+      {
+        "name": "new_owner",
+        "type": "core::starknet::contract_address::ContractAddress"
+      }
+    ],
+    "outputs": [],
+    "state_mutability": "external"
+  }
+]
