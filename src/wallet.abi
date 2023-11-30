@@ -1,7 +1,7 @@
 [
   {
     "type": "function",
-    "name": "constructor",
+    "name": "constructor",g
     "inputs": [],
     "outputs": [],
     "state_mutability": "external"
