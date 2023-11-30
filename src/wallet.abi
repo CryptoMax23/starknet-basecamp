@@ -4,7 +4,7 @@
     "name": "constructor",
     "inputs": [],
     "outputs": [],
-    "state_mutability": "external" d
+    "state_mutability": "external"
   },
   {
     "type": "function",
