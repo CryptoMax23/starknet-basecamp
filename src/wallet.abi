@@ -2,7 +2,7 @@
   {
     "type": "function",
     "name": "constructor",
-    "inputs": [],d
+    "inputs": [],
     "outputs": [],
     "state_mutability": "external"
   },
